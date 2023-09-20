@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css"; // Import the App.css file
+import "./App.css";
 
 const BannerCarousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

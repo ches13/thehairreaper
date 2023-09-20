@@ -32,22 +32,93 @@ function App() {
         className="img-fluid"
         style={{ display: "block", margin: "0 auto" }}
       />
-
       <div className="mb-3 mt-4">
         <BannerCarousel className="makeClear" />
       </div>
-
+      <h1 className="center">Meet Your Stylist</h1>
       <Card.Body className="bannerBody mb-4">
         Hey, I'm The Hair Reaper, your Brooklyn hairstylist. I specialize in
         unique custom wigs, refreshing looks, and stunning styles that empower.
         With flexible appointments, I cater to your schedule. Let's turn your
         hair dreams into reality – contact me to book now!{" "}
       </Card.Body>
-
       <div className="mb-4">
-        <CustomCarousel />
+        <Card className="custom">
+          <h1 className="mb-4 center">Custom Units</h1>
+          <CustomCarousel />
+          <h5 className="mt-4 center">The Hair Reaper Custom Unit</h5>
+          <p>
+            Alongside providing Wig construction and Revamp services, The Hair
+            Reaper will also provide custom units at a first come and a first
+            serve basis. These units will be uploaded to all The Hair Reapers
+            social media platforms. Clients will then be given the opportunity
+            to consult with the stylist through email at regarding any details
+            and payment for the desired unit.{" "}
+          </p>
+          <h5 className="center"> The Hair Reaper Provides the hair</h5>
+          <p>
+            For custom units where The Hair Reaper provides the Hair, the price
+            will fluctuate. This is based on length, texture, and color (613 or
+            natural color). The hair provided by The Hair Reaper will be sold in
+            a bundle deal. This bundle deal does not include The Hair Reapers
+            labor fee. The labor fee is determined by the needs of the client.
+            However, all clients are required to consult with the stylist
+            through text at <a href="tel:3476755013">(347) 675-5013</a>. To
+            ensure that the stylist has the desired texture/length of hair
+            available.{" "}
+          </p>
+        </Card>
       </div>
+      <h1 className="mb-4 center">Unit Revamps</h1>
       <RevampCarousel />
+      <Card className="revamp">
+        <p className="mt-4 center">
+          The Hair Reaper provides lace/wig revamp and reconstruction services
+          as well as. Most wig revamps require <strong>Hair Ventilation</strong>
+          .
+        </p>
+        <p className="center">
+          The term <strong>Hair Ventilation</strong> means a method of affixing
+          individual strands of hair into a wig cap base or lace. This method is
+          very tedious and time consuming. Contingent to its prolonged process;
+          pricing for this service will vary (Starting at $70 dollars and can go
+          up to $150 dollars). Pricing is determined by the amount of hair that
+          is missing from the closure/frontal, as well as labor. Unfortunately,
+          this does not include styling! If the client will like styling that
+          will be an additional $25.{" "}
+        </p>
+        <h5>Revamps without ventilating may include but not subject to</h5>
+        <ul>
+          <li>Deep conditioning</li>
+          <li>Coloring </li>
+          <li>Styling (curled ,straightened ,crimped or cut)</li>
+          <li>Tweezing </li>
+        </ul>
+        <h5 className="center">Consultation</h5>
+        <p>
+          <strong>PLEASE BE ADVISED THAT EVERY UNIT CANNOT BE REVAMPED!</strong>{" "}
+          This is because some units after wear and tear simply cannot be
+          revived. Therefore, it is Imperative to consult with the stylist
+          through text at <a href="tel:3476755013">(347) 675-5013</a> before
+          selecting a drop off date.
+        </p>
+        <h5>Consultation text should include:</h5>
+        <ul>
+          <li>
+            Picture of damage (displaying the missing hair from the
+            closure/frontal as well as the condition of the unit).{" "}
+          </li>
+          <li>
+            Desired revamped style (whether it is a change of part, color, or
+            length).{" "}
+          </li>
+          <li>
+            Detailed description as to the materials being dropped off or mailed
+            (this is to ensure that both parties are covered in the case of an
+            issue).{" "}
+          </li>
+        </ul>
+      </Card>
       {/* 
 <Form>
   <Row className="text-center">
@@ -99,17 +170,32 @@ function App() {
             TIME. THIS PRIMARILY INCLUDES ALL CONSTRUCTION OF UNITS, REVAMPS AND
             COLORING.
           </li>
-          <li>
-            IF COLORING IS REQUESTED; ALL CUSTOMERS ARE REQUIRED TO PAY A
-            NON-REFUNDABLE MATERIAL FEE OF $50. THIS FEE IS IN ADDITION TO THE
-            REQUIRED DEPOSIT. AND, MUST BE PAID BEFORE SERVICES CAN BE RENDERED.
-          </li>
+
           <li>
             IF AT ANY POINT THE CUSTOMER IS UNABLE TO RETRIEVE THEIR UNIT ON THE
             DAY OF COMPLETION; AFTER 48 HOURS A STORAGE FEE WILL INCUR. THIS FEE
             ENTAILS OF $10 FOR EACH DAY THE UNIT REMAINS WITH THE STYLIST.{" "}
           </li>
         </ul>
+        {/*  <Card>
+          <h3>Materials</h3>
+          <h5>
+            If a client request for their units to be colored, they are required
+            to pay a material fee of $50 dollars. This fee is non-negotiable!
+          </h5>
+          <ul>
+            <li>
+              All The Hair Reaper colored units are custom, which means all
+              colors are done with at least 2-3 different dyes.{" "}
+            </li>
+            <li>
+              If the client does not want to pay the material fee, the client is
+              welcome to provide the materials. However, please be mindful that
+              the stylist is not responsible for any mishaps caused by the
+              provided materials.{" "}
+            </li>
+          </ul>
+        </Card>*/}
       </Card>
       <img
         src="/footer2.png"

@@ -34,7 +34,7 @@ img {
 .bannerBody {
   background-color: #292929; /* Dark background color */
   border-radius: 10px;
-  color: #999;
+  color: #e3e3e3;
   padding: 20px; /* Add padding to create some space between content and border */
 }
 .grey {
@@ -57,6 +57,10 @@ img {
   height: 1px;
 }
 h3,
+h1,
+h2,
+h4,
+h5,
 a {
   color: #e074dd;
 }
@@ -65,4 +69,17 @@ a {
   display: flex;
   margin-top: 10px;
   align-items: center;
+}
+
+.revamp,
+.custom {
+  background-color: #292929;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+
+p {
+  color: #e3e3e3;
 }
