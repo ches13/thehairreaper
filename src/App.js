@@ -32,11 +32,11 @@ function App() {
         className="img-fluid"
         style={{ display: "block", margin: "0 auto" }}
       />
-      <div className="mb-3 mt-4">
+      {/*<div className="mb-3 mt-4">
         <BannerCarousel className="makeClear" />
-      </div>
-      <h1 className="center">Meet Your Stylist</h1>
-      <Card.Body className="bannerBody mb-4">
+  </div>*/}
+      <h1 className="center mt-4">Meet Your Stylist</h1>
+      <Card.Body className="bannerBody mb-2">
         Hey, I'm The Hair Reaper, your Brooklyn hairstylist. I specialize in
         unique custom wigs, refreshing looks, and stunning styles that empower.
         With flexible appointments, I cater to your schedule. Let's turn your
@@ -155,48 +155,7 @@ function App() {
   </Row>
 </Form>
 */}
-      <Card className="policy mt-4">
-        <h3>The Hair Reaper's Policies</h3>
-        <ul>
-          <li>PAYMENT SHOULD ONLY BE SENT AFTER CONSULTING WITH STYLIST!</li>
-          <li>
-            ONCE CONSULTATION IS COMPLETED, ALL CUSTOMERS ARE REQUIRED TO PAY A
-            NON-NEGOTIABLE DEPOSIT OF 50% OF THE TOTAL. THIS WILL ULTIMATELY
-            SECURE THE CUSTOMERS DESIRED DATE OF COMPLETION. AS WELL AS, THE
-            HAIR PROVIDED BY THE HAIR REAPER’S HAIR COLLECTION.{" "}
-          </li>
-          <li>
-            AFTER DEPOSIT IS RECEIVED, PLEASE ALLOW 2-3 WEEKS FOR TURN AROUND
-            TIME. THIS PRIMARILY INCLUDES ALL CONSTRUCTION OF UNITS, REVAMPS AND
-            COLORING.
-          </li>
 
-          <li>
-            IF AT ANY POINT THE CUSTOMER IS UNABLE TO RETRIEVE THEIR UNIT ON THE
-            DAY OF COMPLETION; AFTER 48 HOURS A STORAGE FEE WILL INCUR. THIS FEE
-            ENTAILS OF $10 FOR EACH DAY THE UNIT REMAINS WITH THE STYLIST.{" "}
-          </li>
-        </ul>
-        {/*  <Card>
-          <h3>Materials</h3>
-          <h5>
-            If a client request for their units to be colored, they are required
-            to pay a material fee of $50 dollars. This fee is non-negotiable!
-          </h5>
-          <ul>
-            <li>
-              All The Hair Reaper colored units are custom, which means all
-              colors are done with at least 2-3 different dyes.{" "}
-            </li>
-            <li>
-              If the client does not want to pay the material fee, the client is
-              welcome to provide the materials. However, please be mindful that
-              the stylist is not responsible for any mishaps caused by the
-              provided materials.{" "}
-            </li>
-          </ul>
-        </Card>*/}
-      </Card>
       <img
         src="/footer2.png"
         className="img-fluid mb-4"
