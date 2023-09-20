@@ -82,10 +82,10 @@ function App() {
           individual strands of hair into a wig cap base or lace. This method is
           very tedious and time consuming. Contingent to its prolonged process;
           pricing for this service will vary (Starting at $70 dollars and can go
-          up to $150 dollars). Pricing is determined by the amount of hair that
+          up to $200 dollars). Pricing is determined by the amount of hair that
           is missing from the closure/frontal, as well as labor. Unfortunately,
           this does not include styling! If the client will like styling that
-          will be an additional $25.{" "}
+          will be an additional $50. This price can vary depending on the style{" "}
         </p>
         <h5>Revamps without ventilating may include but not subject to</h5>
         <ul>
